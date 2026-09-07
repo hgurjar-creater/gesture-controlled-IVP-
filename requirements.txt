@@ -1,0 +1,6 @@
+# Pinned to the versions this was built and tested against.
+# MediaPipe 1.0 removed the legacy mp.solutions API, so gestures/hand_tracker.py
+# uses the Tasks API and downloads models/hand_landmarker.task on first run.
+opencv-python==5.0.0.93
+mediapipe==1.0.1
+numpy==2.5.2
